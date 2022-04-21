@@ -1,0 +1,86 @@
+.listImage {
+    width: 90vw;
+    height: 90vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.listImageContainer {
+    width: 100%;
+    height: 77.5%;
+    background-color: white;
+}
+
+.listImageDescription {
+    width: 100%;
+    height: 22.5%;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.listImageDescription h2 {
+    display: flex;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    margin-bottom: 0;
+    font-size: 5vw;
+}
+
+.listImageDescription h3 {
+    display: flex;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 0.5vw;
+    font-size: 4vw;
+    color: #303030;
+}
+
+
+
+
+@media (min-width: 768px) {
+    .listImage {
+        width: 25vw;
+        height: 25vw;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        padding-left: 6.25vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .listImageContainer {
+        width: 100%;
+        height: 75%;
+        background-color: white;
+    }
+
+    .listImageDescription {
+        width: 100%;
+        height: 25%;
+        background-color: gray;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .listImageDescription h2 {
+        display: flex;
+        margin-top: 1vh;
+        margin-left: 1vw;
+        margin-bottom: 0;
+        font-size: 1.5vw;
+    }
+
+    .listImageDescription h3 {
+        display: flex;
+        margin-left: 1vw;
+        margin-top: 1vh;
+        margin-bottom: 0.5vh;
+        font-size: 1.125vw;
+        color: #303030;
+    }
+}

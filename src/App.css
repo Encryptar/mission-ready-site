@@ -1,0 +1,13 @@
+* {
+    font-family: Verdana, Tahoma, sans-serif;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.app {
+    width: 100vw;
+}

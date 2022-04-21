@@ -1,0 +1,21 @@
+.imageList {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #0e1726;
+}
+
+@media (max-width: 767px){
+    .imageList {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+}
