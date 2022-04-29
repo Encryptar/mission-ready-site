@@ -1,4 +1,4 @@
-.listImage {
+.list-image {
     width: 90vw;
     height: 90vw;
     padding-top: 5vh;
@@ -8,13 +8,13 @@
     flex-direction: column;
 }
 
-.listImageContainer {
+.list-image-container {
     width: 100%;
     height: 77.5%;
     background-color: white;
 }
 
-.listImageDescription {
+.list-image-description {
     width: 100%;
     height: 22.5%;
     background-color: gray;
@@ -22,7 +22,7 @@
     flex-direction: column;
 }
 
-.listImageDescription h2 {
+.list-image-description h2 {
     display: flex;
     margin-top: 1vh;
     margin-left: 1vw;
@@ -30,7 +30,7 @@
     font-size: 5vw;
 }
 
-.listImageDescription h3 {
+.list-image-description h3 {
     display: flex;
     margin-left: 1vw;
     margin-top: 1vh;
@@ -40,10 +40,8 @@
 }
 
 
-
-
 @media (min-width: 768px) {
-    .listImage {
+    .list-image {
         width: 25vw;
         height: 25vw;
         padding-top: 5vh;
@@ -53,30 +51,27 @@
         flex-direction: column;
     }
 
-    .listImageContainer {
+    .list-image-container {
         width: 100%;
         height: 75%;
         background-color: white;
     }
 
-    .listImageDescription {
+    .list-image-description {
         width: 100%;
         height: 25%;
         background-color: gray;
-        display: flex;
         flex-direction: column;
     }
 
-    .listImageDescription h2 {
-        display: flex;
+    .list-image-description h2 {
         margin-top: 1vh;
         margin-left: 1vw;
         margin-bottom: 0;
         font-size: 1.5vw;
     }
 
-    .listImageDescription h3 {
-        display: flex;
+    .list-image-description h3 {
         margin-left: 1vw;
         margin-top: 1vh;
         margin-bottom: 0.5vh;

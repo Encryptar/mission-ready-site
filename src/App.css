@@ -11,3 +11,11 @@
 .app {
     width: 100vw;
 }
+
+.chatbot {
+    z-index: 4;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

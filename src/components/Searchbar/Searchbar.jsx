@@ -3,12 +3,12 @@ import './Searchbar.css'
 
 const Searchbar = () => {
   return (
-    <div className='mainBody'>
-        <div className='SearchWrapper'>
+    <div className='main-body'>
+        <div className='search-wrapper'>
             <input></input>
             <button>SEARCH</button>
         </div>
-        <div className='bodyTitle'>
+        <div className='body-title'>
             <h1>Express yourself.</h1>
         </div>
     </div>

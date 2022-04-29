@@ -9,10 +9,11 @@ import "./ImageList.css"
 
 const ImageList = () => {
   return (
-    <div className='imageList'>
+    <div className='image-list'>
         <ListImage Title="Invidia Exhaust" Description="Make it sound like a dream." Image={invidiaGemini}/>
         <ListImage Title="Tein Coilovers" Description="Never compromise on ride quality." Image={TeinFlexZCoilovers}/>
         <ListImage Title="Cosmis Wheels" Description="Style and performance." Image={xt206r}/>
+        
     </div>
   )
 }

@@ -1,4 +1,4 @@
-.imageList {
+.image-list {
     width: 100vw;
     height: auto;
     display: flex;
@@ -8,8 +8,10 @@
     background-color: #0e1726;
 }
 
+
+
 @media (max-width: 767px){
-    .imageList {
+    .image-list {
         width: 100vw;
         height: auto;
         display: flex;

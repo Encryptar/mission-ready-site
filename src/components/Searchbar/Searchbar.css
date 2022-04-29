@@ -1,4 +1,4 @@
-.mainBody {
+.main-body {
     height: 40vh;
     width: 100vw;
     background-image: none;
@@ -9,20 +9,20 @@
     justify-content: space-evenly;
 }
 
-.bodyTitle{
+.body-title{
     
     width: 80%;
     height: auto;
     font-size: 4vw;
 }
 
-.bodyTitle h1 {
+.body-title h1 {
     line-height: 175%;
     margin-bottom: 0;
     color: #406ab3;
 }
 
-.SearchWrapper {
+.search-wrapper {
     width: 90%;
     height: 50%;
     display: flex;
@@ -30,7 +30,7 @@
     align-items: center;
 }
 
-.SearchWrapper input {
+.search-wrapper input {
     width: 90%;
     height: 50%;
     border-radius: 0;
@@ -40,7 +40,7 @@
     border-width: 0px;
 }
 
-.SearchWrapper button {
+.search-wrapper button {
     width: 90%;
     height: 50%;
     background-color: #252525;
@@ -51,7 +51,7 @@
 }
 
 @media (min-width: 768px){
-    .mainBody {
+    .main-body {
         height: 60vh;
         width: 100vw;
         
@@ -63,7 +63,7 @@
     }
 
 
-    .bodyTitle{
+    .body-title{
         color: white;
         width: 80%;
         height: auto;
@@ -71,7 +71,7 @@
         
     }
 
-    .bodyTitle h1 {
+    .body-title h1 {
         float: left;
         width: 35%;
         line-height: 150%;
@@ -79,7 +79,7 @@
         color: white;
     }
 
-    .SearchWrapper {
+    .search-wrapper {
         width: 50%;
         height: 12.5%;
         display: flex;
@@ -88,7 +88,7 @@
         
     }
 
-    .SearchWrapper input {
+    .search-wrapper input {
         width: 75%;
         height: 100%;
         border-radius: 0;
@@ -97,7 +97,7 @@
         border-width: 0px;
     }
 
-    .SearchWrapper button {
+    .search-wrapper button {
         width: 25%;
         height: 100%;
         background-color: #0e1726;

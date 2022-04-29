@@ -14,11 +14,11 @@ export default function Navbar(){
   return ( 
     <nav>
         <div className='left'>
-            <div className='profileImage'></div>
+            <div className='profile-image'></div>
             <h1>Fairlady Garage</h1>
         </div>
         <div className='right'>
-            <div className='menu' id={hamburgerActive ? "dropdownMenu" : ""}>
+            <div className='menu' id={hamburgerActive ? "dropdown-menu" : ""}>
               <a onClick={closeHamburger} href=''>Performance</a>
               <a onClick={closeHamburger} href=''>OEM</a>
               <a onClick={closeHamburger} href=''>Contact</a>
