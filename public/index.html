@@ -13,5 +13,33 @@
   </head>
   <body style="margin: 0;">
     <div id="root"></div>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+            <df-messenger
+                className="chatbot"
+                intent="WELCOME"
+                chat-title="Turners-FAQ-Agent"
+                agent-id="4c1bf653-30e8-4d24-9d76-41b6bd79ac51"
+                language-code="en">
+                <style>
+                  .container {
+                    background-image: url("img.png");
+                    background-repeat: no-repeat;
+                    min-height: 940px;
+                    height: 100%;
+                    margin: 10px 30px;
+                  }
+          
+                  df-messenger {
+                    --df-messenger-bot-message: #fff;
+                    --df-messenger-button-titlebar-color: #2e4c80;
+                    --df-messenger-button-titlebar-color: #2e4c80;
+                    --df-messenger-chat-background-color: #fafafa;
+                    --df-messenger-font-color: #000;
+                    --df-messenger-send-icon: #2e4c80;
+                    --df-messenger-user-message: #0041C2;
+                    --df-messenger-chip-border-color:#0041C2;
+                  }
+                </style>
+              </df-messenger>
   </body>
 </html>
